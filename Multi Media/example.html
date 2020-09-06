@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS</title>
+    <style>
+      h1.st:before {
+        content: "String ";
+        color: red;
+      }
+      h1.ur:before {
+        content: url( "jb_dot.png" );
+        margin-right: 10px;
+      }
+      h1.at:before {
+        content: attr( class );
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="st">Lorem</h1>
+    <h1 class="ur">Ipsum</h1>
+    <h1 class="at">Dolor</h1>
+  </body>
+</html>
